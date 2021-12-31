@@ -1,5 +1,6 @@
 # AirflowDocker
 Step 1: 建立所需要的資料夾以及設定所需的環境變數
+
 $ mkdir -p ./logs ./plugins ./dags
  
 $ echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
