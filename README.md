@@ -5,7 +5,7 @@ $ mkdir -p ./logs ./plugins ./dags
  
 $ echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
 
-Step 3: 使用docker compose設定並建置airflow webserver (main => port:8080, flower => port:5555)
+Step 2: 使用docker compose設定並建置airflow webserver (main => port:8080, flower => port:5555)
 
 $ docker-compose up airflow-init
   
